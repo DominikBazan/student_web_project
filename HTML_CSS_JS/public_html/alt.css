@@ -1,0 +1,113 @@
+body{
+    width: 100%;
+    margin: 0px;
+    background-color: #FFFFCC;
+}
+#tytul{
+    max-width: 960px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #EBC79E;
+    color: #6F4242;
+    font-size: 45px;
+    text-align: center;
+    font-family: fantasy;
+    padding: 20px 0;
+}
+.kontener{
+    max-width: 960px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    word-wrap: break-word;
+}
+.menu{
+    background-color: #928383;
+    max-width: 960px;;
+    height: auto;
+    overflow: auto;
+}
+.UlMenu{
+    position: static;
+    max-width: 960px;
+    width: 100%;
+    background-color: #353433;
+}
+.UlMenu ul {
+    padding: 0px 0;
+    margin: 0;
+    list-style: none;
+}
+.UlMenu li {
+    text-align: center;
+    margin: 5px 0px 5px 15px;
+    padding: 12px 15px;
+    background-color: #e2ba50;
+    float: left;
+}
+#tresc{
+    padding: 10px;
+    width: 940px;
+    background-color: #CCCCFF;
+}
+h1{
+    color: green;
+    letter-spacing: 12px;
+    text-indent: 25px;
+}
+h2{
+    color:  black;
+    text-indent: 25px;
+    font-family: 'Courier New';
+}
+h3{
+    color: #f73e3e;
+    text-indent: 25px;
+}
+table{
+    background-color: darkkhaki;
+    border: 8px double crimson;
+}
+td{
+    border: 2px solid crimson;
+}
+.komorka1{
+    background-color: tomato;
+}
+.komorka2{
+    background-color: steelblue;
+}
+thead{
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    font-style: italic;
+}
+ol{
+    list-style-type: upper-roman;
+}
+ol ol{
+    list-style-type: lower-roman;
+}
+ol ol ol{
+    list-style-type: lower-greek;
+}
+#Grafika1{
+    float: left;
+}
+#Grafika2{
+    float: right;
+}
+.clearfix{
+    clear: both;
+}
+h3:first-letter{
+    font-size:180%;
+    color: #008000;
+}
+.menu li:hover{
+    background-color: #ecb112;
+}
+.kontener a:link, .kontener a:visited, .kontener a:hover, .kontener a:active{
+    cursor: default;
+}

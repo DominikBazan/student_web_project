@@ -1,0 +1,105 @@
+<!DOCTYPE  html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>Formatowanie tekstu</title>
+        <meta http-equiv="Content-Type" content="application/xhtml+xml;charset=UTF-8" />
+        <meta name="author" content="Dominik Bazan"/>
+        <link type="text/css" rel="stylesheet" href="style.css" title="default"/>
+        <link type="text/css" rel="alternate stylesheet" href="alt.css" title="Alternatywny"/>
+        <link type="text/css" rel="stylesheet" href="druk.css" media="print"/>
+        <script type="text/javascript" src="cookies.js"></script>
+    </head>
+
+<body onload="listujStyle()">
+	<div id="tytul">
+            Projekt CSS
+        </div>
+        <div class="kontener">
+            <div class="menu">
+                <div class="UlMenu">
+                    <ul>
+                        <li><a href="index.html">Podstwy</a></li>
+                        <li><a href="format.html">Formatowanie tekstu</a></li>
+                        <li><a href="tabela.html">Tabele, listy i definicje</a></li>
+                        <li><a href="pytania.html">Różnice między znacznikami</a></li>
+                        <li><a href="obrazy.html">Obrazy</a></li>
+                        <li><a href="chat.html">Chat</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div id="tresc">
+		<div id="listaStylow"></div><br/>
+                <div id="kot">
+                    <a href="#format">Formatowanie tekstu</a><br/>
+                    <a href="#kod">Wyświetlanie kodu</a><br/>
+                    <a href="#mat">Prosty wzór matematyczny</a><br/>
+                    <a href="#encja">Encja</a><br/>
+                </div>
+                <h1 id="format">Formatowanie tekstu</h1>
+                <hr/>
+                <i>Tekst pisany kursywą pierwszym sposobem.</i><br/>
+                <em>Tekst pisany kursywą drugim sposobem.</em><br/>
+                <b>Tekst pisany boldem pierwszym sposobem.</b><br/>
+                <strong>Tekst pisany boldem drugim sposobem.</strong><br/>
+                <hr/>
+                <h3 id="kod">Wyświetlanie kodu:</h3>
+                1:<br/>
+                <code>
+                    package pracownik;
+
+                    public class Pracownik {
+                    protected int iloscZajec;
+
+                    public void wypiszSie(){
+                    System.out.println(iloscZajec);
+                    }
+                    public abstract void dodajZajecia();
+                    }
+                </code><br/>
+                2:<br/>
+                <pre>
+                package pracownik;
+
+                public class Pracownik {
+                    protected int iloscZajec;
+
+                    public void wypiszSie(){
+                        System.out.println(iloscZajec);
+                    }
+                    public abstract void dodajZajecia();
+                }
+                </pre>
+                (3:)<br/>
+                <samp>
+                    package pracownik;
+
+                    public class Pracownik {
+                    protected int iloscZajec;
+
+                    public void wypiszSie(){
+                    System.out.println(iloscZajec);
+                    }
+                    public abstract void dodajZajecia();
+                    }
+                </samp><br/>
+                <hr/>
+                <h3 id="mat">Prosty wzór matematyczny:<br/></h3>
+                <h4>
+                    x<sub>1</sub><sup>2cosx</sup> &gt; 62<br/>
+                    x<sub>2</sub><sup>3</sup> &lt; 4<br/>
+                </h4>
+                <hr/>
+                <h3 id="encja">
+                    Twarda spacja przed 'i': Jakiś tekst i&nbsp;jakiś inny tekst.
+                </h3>    
+                <hr/>
+                <p>
+                    <a href="http://validator.w3.org/check?uri=referer"><img src="http://www.w3.org/Icons/valid-xhtml10" alt="Valid XHTML 1.0 Strict" height="31" width="88" /></a>
+                    <a href="http://jigsaw.w3.org/css-validator/check/referer"><img style="border:0;width:88px;height:31px" src="http://jigsaw.w3.org/css-validator/images/vcss-blue" alt="Poprawny CSS!"/></a>
+                </p>
+                Autor: Dominik Bazan
+            </div>
+        </div>
+    </body>
+</html>

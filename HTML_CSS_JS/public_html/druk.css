@@ -1,0 +1,24 @@
+#tytul{
+    margin: 10px 10px;
+    color: black;
+}
+.menu{
+    display: none;
+}
+#kot{
+    display: none;
+}
+#tresc{
+    margin: 0px auto;
+}
+body{
+    text-decoration: none;
+    border-color:black;
+}
+h1, h2, h3, a, p, h3:first-letter{
+    color: black;
+    margin: 10px 10px;
+}
+table{
+    border: none;
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE  html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>Pytania i odpowiedzi</title>
+        <meta http-equiv="Content-Type" content="application/xhtml+xml;charset=UTF-8" />
+        <meta name="author" content="Dominik Bazan"/>
+        <link type="text/css" rel="stylesheet" href="style.css" title="default"/>
+        <link type="text/css" rel="alternate stylesheet" href="alt.css" title="Alternatywny"/>
+        <link type="text/css" rel="stylesheet" href="druk.css" media="print"/>
+	    <script type="text/javascript" src="cookies.js"></script>
+    </head>
+
+<body onload="listujStyle()">
+	<div id="tytul">
+            Projekt CSS
+        </div>
+        <div class="kontener">
+            <div class="menu">
+                <div class="UlMenu">
+                    <ul>
+                        <li><a href="index.html">Podstwy</a></li>
+                        <li><a href="format.html">Formatowanie tekstu</a></li>
+                        <li><a href="tabela.html">Tabele, listy i definicje</a></li>
+                        <li><a href="pytania.html">Różnice między znacznikami</a></li>
+                        <li><a href="obrazy.html">Obrazy</a></li>
+                        <li><a href="chat.html">Chat</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div id="tresc">
+		<div id="listaStylow"></div><br/>
+                <div id="kot">
+                    <a href="#pio">Pytania i odpowiedzi</a><br/>
+                    <a href="#lt">i&nbsp;oraz em</a><br/>
+                    <a href="#bs">b&nbsp;oraz strong</a><br/>
+                    <a href="#cs">code oraz samp</a><br/>
+                    <a href="#bb">&lt;/b&gt;&lt;b/&gt;</a><br/>
+                </div>
+                <h1 id="pio">Pytania i odpowiedzi</h1>
+                <hr/>
+                <h3 id="lt">Jaka jest różnica między znacznikami i&nbsp;oraz em? Czy zawsze dają identyczne wyniki?</h3>    
+                <h4>Tekst po użyciu tych znaczników wygląda tak samo, jednak same znaczniki bardzo się różnią. &lt;em&gt; używa się, żeby coś zaakcentować podkreślić. Emfaza jest stanem logicznym - może być używana jako kursywa, ale też na przykład jako czerwony, podkreślony tekst. Znacznik &lt;i&gt; reprezentuje stan fizyczny - jest po prostu pochylonym tekstem. Nie jest on zabroniony, jednak nie jest zalecany, odkąd kwestię stylu pozostawia się CSS. Znacznik &lt;em&gt; może być nadpisywany w&nbsp;CSS.</h4>
+                <hr/>
+                <h3 id="bs">Jaka jest różnica między znacznikami b&nbsp;oraz strong? Czy zawsze dają identyczne wyniki?</h3>    
+                <h4>Tak samo jak w&nbsp;przypadku &lt;em&gt; i&nbsp;&lt;i&gt;, znaczniki &lt;strong&gt; i&nbsp;&lt;b&gt; różnią się od siebie. &lt;b&gt; wyraża tylko pogrubienie tekstu, natomiast &lt;strong&gt; stosuje się, by podkreślić znaczenie danego słowa czy zdania. Może mieć różną formę wizualną, można go nadpisać w CSS.</h4>
+                <hr/>
+                <h3 id="cs">Jaka jest różnica między znacznikami code oraz samp? Czy zawsze dają identyczne wyniki?</h3>    
+                <h4>&lt;code&gt; stosuje się do kodów programów komputerowych, a &lt;samp&gt; do outputów programu. Nie muszą dawać identycznych wyników.</h4>
+                <hr/>
+                <h3 id="bb">Jaka jest różnica pomiędzy fragmentem strony sformatowanej tak: &lt;p&gt;...&#60;/p&#62;&lt;p&gt;...&#60;/p&#62; oraz fragmentem o&nbsp;następującej postaci: &lt;p&gt;...&lt;/b&gt;&lt;b/&gt;...&#60;/p&#62; ?</h3>    
+                <h4>Wizualnie te formatowania niczym się od siebie nie różnią, jednak po użyciu pierwszej możliwości mamy do czynienia z&nbsp;dwoma paragrafami, po użyciu drugiej - z&nbsp;jednym, podzielonym pustą linią.</h4>
+                <p>
+                    <a href="http://validator.w3.org/check?uri=referer"><img src="http://www.w3.org/Icons/valid-xhtml10" alt="Valid XHTML 1.0 Strict" height="31" width="88" /></a>
+                    <a href="http://jigsaw.w3.org/css-validator/check/referer"><img style="border:0;width:88px;height:31px" src="http://jigsaw.w3.org/css-validator/images/vcss-blue" alt="Poprawny CSS!"/></a>
+                </p>
+                Autor: Dominik Bazan
+            </div>
+        </div>
+    </body>
+</html>
